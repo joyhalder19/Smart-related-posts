@@ -21,3 +21,7 @@ Smart Related Posts also supports public custom post types that use WordPress ca
 5. Enter [related_posts] and update the post.
 
 Publish posts with shared categories or tags to provide matches. The plugin displays each matching post’s title, featured image, excerpt, and link.
+
+### Example Demonstration
+
+Visit this link: https://joyhalder.blog/ for viewing example demonstration of this plugin.
