@@ -14,9 +14,10 @@ Smart Related Posts also supports public custom post types that use WordPress ca
 
 ### Installation & Usage Instructions
 
-In WordPress, go to Plugins → Add New Plugin → Upload Plugin.
-Select smart-related-posts.zip, click Install Now, then Activate Plugin.
-Go to Settings → Smart Related Posts to choose matching categories or tags, post count, layout, and display options.
-Edit a post and add a Shortcode block where you want recommendations to appear.
-Enter [related_posts] and update the post.
+1. In WordPress, go to Plugins → Add New Plugin → Upload Plugin.
+2. Select smart-related-posts.zip, click Install Now, then Activate Plugin.
+3. Go to Settings → Smart Related Posts to choose matching categories or tags, post count, layout, and display options.
+4. Edit a post and add a Shortcode block where you want recommendations to appear.
+5. Enter [related_posts] and update the post.
+
 Publish posts with shared categories or tags to provide matches. The plugin displays each matching post’s title, featured image, excerpt, and link.
