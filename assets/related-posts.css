@@ -1,0 +1,22 @@
+.srp-related { container-type: inline-size; margin-block: 2rem; color: inherit; font-family: inherit; }
+.srp-related .srp-heading { margin: 0 0 1.25rem; overflow-wrap: anywhere; }
+.srp-related .srp-cards { display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr); }
+.srp-related .srp-card { min-width: 0; margin: 0; padding: 0; border: 1px solid #d8d8d8; border-radius: var(--srp-radius, 12px); background: var(--srp-card-background, #fff); color: var(--srp-card-text, #242424); }
+.srp-related .srp-link { display: flex; flex-direction: column; height: 100%; color: inherit; text-decoration: none; border-radius: var(--srp-radius, 12px); box-shadow: none; }
+.srp-related .srp-link:hover .srp-title { text-decoration: underline; }
+.srp-related .srp-link:focus-visible { outline: 3px solid var(--srp-accent, #175cd3); outline-offset: 4px; }
+.srp-related .srp-media { overflow: hidden; border-radius: max(0px, calc(var(--srp-radius, 12px) - 1px)) max(0px, calc(var(--srp-radius, 12px) - 1px)) 0 0; flex-shrink: 0; }
+.srp-related .srp-image { display: block; width: 100%; max-width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; margin: 0; }
+.srp-related .srp-body { display: flex; flex: 1; flex-direction: column; min-width: 0; padding: 1.25rem; gap: .75rem; overflow-wrap: anywhere; }
+.srp-related .srp-title { font-size: 1.2rem; line-height: 1.4; color: inherit; margin: 0; }
+.srp-related .srp-excerpt { font-size: 1rem; line-height: 1.65; margin: 0; }
+.srp-related .srp-read { margin-block-start: auto; padding-block-start: .25rem; font-weight: 600; text-decoration: underline; }
+@container (min-width: 36rem) {
+  .srp-related .srp-cards--grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .srp-related .srp-cards--list .srp-link { flex-direction: row; }
+  .srp-related .srp-cards--list .srp-media { width: 30%; border-radius: max(0px, calc(var(--srp-radius, 12px) - 1px)) 0 0 max(0px, calc(var(--srp-radius, 12px) - 1px)); }
+  .srp-related .srp-cards--list .srp-image { height: 100%; }
+}
+@container (min-width: 56rem) {
+  .srp-related .srp-cards--grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
